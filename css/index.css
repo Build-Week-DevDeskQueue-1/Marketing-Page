@@ -141,9 +141,19 @@ h1 {
 h2 {
   font-size: 3rem;
 }
+@media (max-width: 500px) {
+  h2 {
+    font-size: 2.5rem;
+  }
+}
 p {
   font-size: 2rem;
   line-height: 2rem;
+}
+@media (max-width: 500px) {
+  p {
+    font-size: 1.6rem;
+  }
 }
 .logo {
   margin-right: auto;
@@ -172,12 +182,6 @@ a:hover {
 .child {
   scroll-snap-align: start;
 }
-header {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 30px 10%;
-}
 button {
   width: 200px;
   height: 60px;
@@ -193,6 +197,11 @@ button {
   background-color: #ec3944;
   color: white;
 }
+@media (max-width: 500px) {
+  .button {
+    margin-left: 0%;
+  }
+}
 button:hover {
   background-color: #ec3944;
 }
@@ -204,21 +213,48 @@ button:hover {
   line-height: 20px;
   padding: 5%;
 }
+@media (max-width: 500px) {
+  .main {
+    line-height: 60px;
+  }
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+}
 .cover {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
   margin: 4% 20%;
 }
+@media (max-width: 500px) {
+  .cover {
+    justify-content: center;
+  }
+}
 .cover-image {
   width: 50%;
   margin-left: auto;
+}
+@media (max-width: 500px) {
+  .cover-image {
+    width: 100%;
+  }
 }
 .cover-content {
   display: flex;
   flex-direction: row;
   padding: 0% 3%;
   align-items: center;
+}
+@media (max-width: 500px) {
+  .cover-content {
+    flex-direction: column;
+    padding: 10%;
+  }
 }
 .more-info {
   margin: 10% 20%;
@@ -237,6 +273,11 @@ button:hover {
   flex-direction: column;
   margin: 2% 20%;
 }
+@media (max-width: 500px) {
+  .about {
+    margin: 2%;
+  }
+}
 .about-info {
   display: flex;
   flex-direction: row;
@@ -246,8 +287,19 @@ button:hover {
   padding-top: 12%;
   line-height: 40px;
 }
+@media (max-width: 500px) {
+  .info {
+    padding: 0% 2%;
+  }
+}
 .about-img {
   margin-left: auto;
+}
+@media (max-width: 500px) {
+  .about-img {
+    width: 40%;
+    height: 40%;
+  }
 }
 footer {
   background-color: #ec3944;

@@ -8,6 +8,18 @@
     flex-direction: column;    
     line-height: 20px;
     padding: 5%;
+
+    @media(max-width: 500px){
+        line-height: 60px;
+    }
+}
+
+header { 
+    display: flex; 
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%; 
+    
 }
 
 .cover{
@@ -15,11 +27,18 @@
     justify-content: flex-start;
     flex-direction: column;
     margin: 4% 20%;
+    @media(max-width: 500px){
+        justify-content: center;
+    }
 }
 
 .cover-image{
     width: 50%;
     margin-left: auto;
+
+    @media(max-width: 500px){
+        width: 100%;
+    }
 }
 
 .cover-content{
@@ -27,6 +46,11 @@
     flex-direction: row;
     padding: 0% 3%;
     align-items: center;
+
+    @media(max-width: 500px){
+        flex-direction: column;
+        padding: 10%;
+    }
 }
 
 
