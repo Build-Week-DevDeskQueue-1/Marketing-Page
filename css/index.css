@@ -158,7 +158,6 @@ p {
 .logo {
   margin-right: auto;
   cursor: pointer;
-  width: 200px;
 }
 .navLinks,
 li {
@@ -197,7 +196,7 @@ button {
   background-color: #ec3944;
   color: white;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .button {
     margin-left: 0%;
   }
@@ -212,8 +211,9 @@ button:hover {
   flex-direction: column;
   line-height: 20px;
   padding: 5%;
+  text-align: center;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .main {
     line-height: 60px;
   }
@@ -239,7 +239,7 @@ header {
   width: 50%;
   margin-left: auto;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .cover-image {
     width: 100%;
   }
@@ -250,7 +250,7 @@ header {
   padding: 0% 3%;
   align-items: center;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .cover-content {
     flex-direction: column;
     padding: 10%;
@@ -273,7 +273,7 @@ header {
   flex-direction: column;
   margin: 2% 20%;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .about {
     margin: 2%;
   }
